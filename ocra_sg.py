@@ -1,3 +1,9 @@
+#this is a python script which is able to send files directly to ocracoke from whichever directory on your pc and to get
+#files from ocracoke on the directory in which you are running the script. Both the operations will ask you twice the
+#gateway password. There is the possibility to ask the password only once, but of course I'm not going to implement it as long
+# as the script exists in GitHub.
+
+
 import pxssh #python ssh
 import getpass #a special kind of raw_input which does not show what you are writing
 import os #run bash commands
