@@ -7,3 +7,8 @@ Path to Gromacs:
 Es, per il trjconv: 
 
 ~/progs/gmx_465-bin/bin/trjconv_mpi -f rmd-gb.trr -s rmd-gb.tpr -o md-gb.pdb
+
+Simone: I added a ./bash_profile (you can't see it using ls since it's hidden) exporting the gromacs path. For future knowledge, just do the following:
+vim ./bash_profile #create the file
+export PATH="the/path/you/want" #enables the path inside the directory
+Now we can use every gromacs command within implicit/. 
