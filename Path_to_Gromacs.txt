@@ -1,0 +1,9 @@
+Path to Gromacs: 
+
+~/progs/gmx_465-bin/bin/* 
+
+* = comando
+
+Es, per il trjconv: 
+
+~/progs/gmx_465-bin/bin/trjconv_mpi -f rmd-gb.trr -s rmd-gb.tpr -o md-gb.pdb
